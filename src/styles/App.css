@@ -1,0 +1,498 @@
+.flex-width-full {
+    flex-grow: 1;
+    width: 100px;
+    flex-shrink: 1;
+    /* margin-left: 270px; */
+  }
+  
+  .navMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .bg-white .nav-link:link {
+    color: #515a6e;
+  }
+  
+  #r_iframe {
+    min-height: calc(100vh - 60px);
+  }
+  
+  .iframe_content {
+    overflow: auto;
+    position: relative;
+    height: calc(100vh - 60px);
+  }
+  
+  .iframe_content::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .navbar .indexNavMenuBar .dropdown-menu {
+    right: 20px;
+  }
+  .menuNavMenuBar ul.dropdown-menu:before,
+  .indexNavMenuBar ul.dropdown-menu:before {
+    width: 0%;
+    height: 0;
+    margin-left: 15px;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid rgba(0, 0, 0, 0.15);
+    border-left: 6px solid transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: 15px;
+  }
+  .menuNavMenuBar ul.dropdown-menu:after,
+  .indexNavMenuBar ul.dropdown-menu:after {
+    width: 0%;
+    height: 0;
+    margin-left: 15px;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+  }
+  
+  .navbar .dropdown-menu {
+    top: 40px !important;
+    right: 0!important;
+  }
+  
+  .home-background {
+    height: 100vh;
+    width: auto;
+    background: url('../images/rainbow.jpg');
+    background-size: cover;
+  }
+  
+  .home-button {
+    align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+  }
+  
+  /*menu*/
+  .menu_switch {
+    font-size: 30px !important;
+    margin-top: -2px;
+  }
+  .menu_window {
+    font-size: 20px;
+    margin: auto 5px;
+    color: #515a6e;
+    cursor: pointer;
+  }
+  .icon_display {
+    display: none;
+  }
+  /*menu*/
+  
+  /*login*/
+  .loginbg {
+    height: 76vh;
+    width: 100%;
+    background: url('../images/bg2.jpg') no-repeat;
+    background-size: cover;
+  }
+  /* .loginbg-filter{
+      background-color: rgba(0,0,0,.4);
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+  } */
+  .login-con {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .login-des > h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px #fff;
+    color: #1d5b8a;
+  }
+  .login-des > span {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 20px 0;
+    color: #1d5b8a;
+    text-shadow: 2px 2px #fff;
+    display: inline-block;
+    opacity: 0.9;
+  }
+  .login-des {
+    padding-top: 38px;
+  }
+  .login-form {
+    width: 300px;
+    height: 260px;
+    text-align: center;
+  }
+  .login-form .password {
+    margin-top: -30px;
+  }
+  .login-form .form-group > div > .input-group input:focus {
+    box-shadow: inset 0 0 0 1000px #fff !important;
+  }
+  .login-form .form-group > div > .input-group .input-remove:before {
+    left: 0px;
+  }
+  .login-form .showShake {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes rotate {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(359deg);
+    }
+  }
+  @-o-keyframes rotate {
+    from {
+      -o-transform: rotate(0deg);
+    }
+    to {
+      -o-transform: rotate(359deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .button_isLoading {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate 3s linear infinite;
+    -moz-animation: rotate 3s linear infinite;
+    -o-animation: rotate 3s linear infinite;
+    animation: rotate 3s linear infinite;
+    margin-right: 2px;
+  }
+  
+  .hideShake {
+    display: none;
+  }
+  .showShake {
+    display: block;
+    color: red;
+    font-size: 12px;
+  }
+  
+  .shake_horizontal {
+    -webkit-animation: shake-horizontal 1s infinite both;
+    animation: shake-horizontal 1s infinite both;
+  }
+  .home-blank {
+    height: 12vh;
+    background-color: #ffffff;
+  }
+  .login-form .card {
+    background: transparent;
+  }
+  .login-form .card .card-block {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .login-form div.input-group,
+  .login-form div.input-group input {
+    border-radius: 21px !important;
+  }
+  .login-form .btn {
+    height: 32px;
+    border-radius: 21px !important;
+  }
+  
+  .login_body {
+    position: relative;
+    height: 100vh;
+    background-color: #f5f5f5;
+    /* background-image: linear-gradient(180deg, #FFB800 0%, #FF8200 100%); */
+  }
+  
+  .login_content {
+    height: 600px;
+    width: 1200px;
+    background-color: #fff;
+    left: calc(50% - 600px);
+    top: calc(50% - 300px);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .login_content_left {
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* transform: rotateX(180deg); */
+  }
+  
+  .login_content_right {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    /* transform: rotateX(180deg); */
+  }
+  
+  .login_content_middle {
+    top: 95px;
+    left: 100px;
+    position: absolute;
+  }
+  
+  .login_content_card {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 170px;
+    text-align: center;
+  }
+  
+  .login_content_input {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .login_content_input input {
+    display: block;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 20px;
+    border: 1px solid #dddee1;
+    border-radius: 21px;
+    padding-left: 20px;
+  }
+  
+  .login_content_buttondefault {
+    width: 300px;
+    height: 42px;
+    background-image: linear-gradient(90deg, #7CB0C5 0%, #526074 100%)!important;
+    box-shadow: 0 6px 10px 0 rgba(255, 132, 0, 0.2);
+    border-radius: 21px;
+    margin-top: 30px;
+    padding: 11px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .login_content_buttonblue {
+    width: 300px;
+    height: 42px;
+    background-image: linear-gradient(90deg, #5bc7eb 0%, #0080ff 100%);
+    box-shadow: 0 6px 10px 0 rgba(255, 132, 0, 0.2);
+    border-radius: 21px;
+    margin-top: 30px;
+    padding: 11px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .login_content_button div {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .login_bottom {
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    bottom: calc(50% - 350px);
+    width: 100%;
+    text-align: center;
+  }
+  
+  /*login*/
+  .uipage .fix-inner-height {
+    height: calc(100vh - 120px);
+    overflow: auto;
+  }
+  
+  .uipage_admin .fix-inner-height {
+    height: calc(100vh - 60px);
+    overflow: auto;
+  }
+  
+  .customizedTopCard .top-card .top-card-body > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .customizedTopCard .top-card .top-card-body > div .form-group {
+    width: auto;
+    margin-left: auto;
+  }
+  
+  .foot-card .boxPadding {
+    padding-right: 15px;
+  }
+  .index_content {
+    background: #f4f4f4;
+    overflow: auto;
+    position: relative;
+    height: calc(100vh - 60px);
+    /* height: 100vh;newmenu
+        width: 100%newmenu */
+  }
+  
+  .uipage_admin .index_content {
+    height: calc(100vh - 0px);
+  }
+
+  .menuCardGroup{
+    margin-top: 15px;
+    display: flex;    
+  }
+
+  .ztree{overflow:auto}
+
+  .table .card-title{
+    font-size: 14px;
+    color: #4b7fab;
+}
+.logo_rainbow{
+  width: 55%;
+  margin: 10px auto;
+}
+
+  .statistics-block {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 7px;
+  }
+  .statistics-block div{
+    padding: 0 1rem;
+  }
+  .statistics-block .seperator{   
+    border-left: solid  #f0f0f0 1px;
+  }
+
+  .statistics-block .statistics-title {
+    font: 2rem !important;
+  }
+
+  #task-top-card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .adjustmentDetail{
+    display: flex;
+  }
+
+  .adjustmentDetailCard{
+    display: flex;
+    width: 250px;
+  }
+
+  .adjustmentDetailCard-last{
+    display: flex;    
+    width: 70px;
+  }
+
+  .adjustmentDetailCard-dl{
+    border: solid 1px #cbcbcb;
+  }
+
+  .adjustmentDetailCard-dl dt:not(:last-child){
+    border-bottom: solid 1px #cbcbcb;
+    width: 100%;
+  }
+
+  .adjustmentDetailCard-dl dt{
+    color: #409eff;
+    font-weight: unset;
+  }
+
+  .adjustmentDetail-arrow{
+    margin: auto;
+  }
+
+  .adjustmentDetail-list{
+    margin: auto;
+  }
+  #task-top-card-left {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #task-avatar {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  #task-avatar img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #tasks-middle-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  #task-top-card-text-area {
+    margin-left: 1.5rem;
+  }
+
+  .drawer-float-button {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid rgb(233, 233, 233);
+    padding: 0px 16px 10px 16px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    z-index: 1;
+  }
+
+  #register-report-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,80 @@
+[
+    {
+        "Children": [
+            {
+                "Code": "PA-POLICY-MANAGEMENT",
+                "Codes": "Policy Administration/PA-POLICY-MANAGEMENT",
+                "EntranceUrl": "/task",
+                "HasChild": false,
+                "Id": 1,
+                "IsHyperlink": false,
+                "ModuleGroupId": 350500119,
+                "ModuleId": 300,
+                "Name": "我的任务",
+                "SortNo": 1,
+                "Value": "我的任务"
+            },
+            {
+                "Code": "PA-POLICY-MANAGEMENT",
+                "Codes": "Policy Administration/PA-POLICY-MANAGEMENT",
+                "EntranceUrl": "/register",
+                "HasChild": false,
+                "Id": 2,
+                "IsHyperlink": false,
+                "ModuleGroupId": 350500119,
+                "ModuleId": 300,
+                "Name": "报案",
+                "SortNo": 1,
+                "Value": "报案"
+            },{
+                "Code": "PA-POLICY-MANAGEMENT",
+                "Codes": "Policy Administration/PA-POLICY-MANAGEMENT",
+                "EntranceUrl": "/report",
+                "HasChild": false,
+                "Id": 5,
+                "IsHyperlink": false,
+                "ModuleGroupId": 350500119,
+                "ModuleId": 300,
+                "Name": "立案",
+                "SortNo": 1,
+                "Value": "立案"
+            },{
+                "Code": "PA-POLICY-MANAGEMENT",
+                "Codes": "Policy Administration/PA-POLICY-MANAGEMENT",
+                "EntranceUrl": "/adjustment",
+                "HasChild": false,
+                "Id": 4,
+                "IsHyperlink": false,
+                "ModuleGroupId": 350500119,
+                "ModuleId": 300,
+                "Name": "理算",
+                "SortNo": 1,
+                "Value": "理算"
+          },
+           {
+              "Code": "PA-POLICY-MANAGEMENT",
+              "Codes": "Policy Administration/PA-POLICY-MANAGEMENT",
+              "EntranceUrl": "/plan",
+              "HasChild": false,
+              "Id": 3,
+              "IsHyperlink": false,
+              "ModuleGroupId": 350500220,
+              "ModuleId": 401,
+              "Name": "给付计划",
+              "SortNo": 1,
+              "Value": "给付计划"
+          }       
+        ],
+        "Code": "Policy Administration",
+        "Codes": "Policy Administration",
+        "EntranceUrl": "/",
+        "HasChild": true,
+        "Icon": "rainbow PolicyInfo",
+        "Id": 30003,
+        "IsHyperlink": false,
+        "ModuleGroupId": 350500119,
+        "ModuleId": 300,
+        "SortNo": 10,
+        "Value": "理赔"
+    }
+]

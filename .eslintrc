@@ -1,0 +1,15 @@
+{
+  "extends": "rainbowui",
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "space-infix-ops": [
+      2,
+      {
+        "int32Hint": true
+      }
+    ]
+  }
+}

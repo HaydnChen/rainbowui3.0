@@ -1,0 +1,8 @@
+{
+  "UI_API_GATEWAY_PROXY": "https://rainbow.ebaotech.com/",
+  "UI_LOGIN": false,
+  "UI_TELENT_CONFIG": false,
+  "UI_CALL_KEYS": true,
+  "UI_SKIP_CONFIG_CENTER": true,
+  "UI_TENANT": "ebaogi"
+}

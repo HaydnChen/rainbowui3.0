@@ -1,0 +1,17 @@
+{
+    "plugins": [
+        "add-module-exports",
+        "transform-async-to-generator",
+        "transform-strict-mode",
+        "transform-object-assign",
+        "transform-decorators-legacy",
+        "react-hot-loader/babel",
+        "syntax-dynamic-import"
+    ],
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react",
+        "env"
+    ]
+}
